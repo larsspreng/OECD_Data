@@ -19,7 +19,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 """ ====================== Monthly Economic Indicators ====================== """
 # ========= Settings
 # Path to save dataset
-path = r'C:\Users\aczz248\OneDrive - City, University of London\Code\OECD Data\Data'
+path = r' ' # Enter your path here
 # Get all available variables in MEI Archive
 variable_list,variable_names = OECD.get_var_codes_MEIArchive();
 # Get all available countries in MEI Archive 
